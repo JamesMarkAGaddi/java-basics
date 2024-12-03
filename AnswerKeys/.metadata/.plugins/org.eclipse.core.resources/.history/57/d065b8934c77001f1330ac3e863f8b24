@@ -1,0 +1,21 @@
+package org.acumen.training.codes.itema;
+
+public class Exercise {
+	public int x = 101;
+
+	private void storeValue(int x) {
+		x++;
+		printValue(x);
+	}
+
+	private void printValue(int x) {
+		System.out.println(x);
+	}
+
+	public static void main(String[] args) {
+		int x = 200;
+		
+		Exercise exe = new Exercise();
+		exe.storeValue(x);
+	}
+}

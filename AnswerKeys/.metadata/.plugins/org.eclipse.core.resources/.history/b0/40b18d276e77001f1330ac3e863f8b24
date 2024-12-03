@@ -1,0 +1,15 @@
+package org.acumen.training.codes.itemg;
+
+public class TestClass {
+	public static void main(String[] args) {
+
+		Fraction f1 = new Fraction(10, 5);
+		Fraction f2 = new Fraction(2, 3);
+
+		f1.printRational();
+		f2.multiply(f1).printRational();
+		f2.add(f1).printRational();
+		System.out.println(f2.greaterEqual(f1));
+
+	}
+}

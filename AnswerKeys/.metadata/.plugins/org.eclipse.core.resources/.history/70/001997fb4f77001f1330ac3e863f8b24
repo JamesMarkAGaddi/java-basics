@@ -1,0 +1,13 @@
+package org.acumen.training.codes.itema;
+
+public class ValueChanger {
+
+	public static void main(String[] args) {
+		int x; 
+		
+		System.out.println("x is" x); 
+		float x1 = (float) 15.2; // set x to 15.2 
+		
+		System.out.println("x is now + x"); 
+		int y = (int) (x1 + 1); 
+}

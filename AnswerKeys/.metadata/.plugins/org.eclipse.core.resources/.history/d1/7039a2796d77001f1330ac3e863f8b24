@@ -1,0 +1,38 @@
+package org.acumen.training.codes.itemg;
+
+public class Fraction {
+	public int numerator;
+	public int denominator;
+	private Fraction fraction;
+
+	public Fraction(int numerator, int denominator) {
+		this.numerator = numerator;
+		this.denominator = denominator;
+	}
+
+	public void printRational() {
+		System.out.println(numerator + "/" + denominator);
+	}
+
+	public Fraction add(Fraction fraction) {
+		int newNumerator = this.numerator * fraction.denominator 
+							+ this.denominator * fraction.numerator;
+		int newDenominator = this.denominator * fraction.denominator;
+
+		return new Fraction(newNumerator, newDenominator);
+	}
+
+	public Fraction multiply(Fraction fraction) {
+		int newNumerator = this.numerator * fraction.numerator;
+		int newDenominator = this.denominator * fraction.denominator;
+
+		return new Fraction(newNumerator, newDenominator);
+	}
+
+	public boolean greaterEqual(Fraction fraction) {
+		return this.numerator * fraction.denominator > this.denominator * fraction.numerator;
+	}
+
+	public static void main(String[] args) {
+	}
+}

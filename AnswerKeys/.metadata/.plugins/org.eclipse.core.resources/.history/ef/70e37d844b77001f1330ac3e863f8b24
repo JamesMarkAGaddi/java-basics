@@ -1,0 +1,23 @@
+package org.acumen.training.codes.itema;
+
+public class Exercise {
+	private int x = 101;
+
+private void f(int x) { 
+x++;
+2 
+
+
+g(); 
+}
+
+	private void g() {
+		System.out.println(x);
+	}
+
+	public static void main(String[] args) {
+		exercise e = new exercise();
+		int x = 200;
+		e.f(x);
+	}
+}Errone

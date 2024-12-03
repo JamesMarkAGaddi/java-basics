@@ -1,0 +1,15 @@
+package org.acumen.taining.codes.itemf;
+
+public class AssignMe {
+
+	public static void main(String[] args) {
+		int x = 3;
+		int y = x * 2;
+
+		int temp = x;
+		x = y;
+		y = temp;
+
+		System.out.println("x= " + x + "y= " + y);
+	}
+}
