@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Training\Demo\Track2\AnswerKeys\.metadata\.plugins\org.eclipse.jdt.core
-1561642085.index
-90616526.index
-1865797976.index

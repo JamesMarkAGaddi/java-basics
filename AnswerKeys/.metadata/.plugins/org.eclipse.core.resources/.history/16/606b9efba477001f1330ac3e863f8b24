@@ -1,8 +1,0 @@
-package org.acumen.training.coded;
-
-public class WellDoneFormat{
-	
-	public static void main(String[] args) {
-		System.out.println("\"");
-	}
-}
